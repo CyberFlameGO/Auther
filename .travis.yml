@@ -1,2 +1,5 @@
 language: java
 script: "cd auther-api && mvn test -B"
+
+notifications:
+  email: false
