@@ -72,13 +72,13 @@ private void registerDeterminer(Auther auther) {
 
 Finally, you will need to add `"Auther"` as a plugin dependency to your `plugin.yml` file. Your plugin users will need to install Auther on their servers, but thankfully we provide compiled artifacts on the [Releases](https://github.com/hugmanrique/Auther/releases) page.
 
-> You will need to set `online-mode` to `true` on your BungeeCord's `config.yml` file to auth with Mojang by default. This plugin won't work in "cracked" proxies.
+> You will need to set `online-mode` to `true` on your BungeeCord's `config.yml` file to auth with Mojang by default. This plugin won't work on "cracked" proxies.
 
 ## Examples
 
 ### Disable authentication for known players and IPs if Mojang servers go down
 
-You can make an HTTP request to `https://status.mojang.com/check` to see if the auth servers go down. If they do, you can still let known player and address keypairs join because they player on your server before:
+You can make an HTTP request to `https://status.mojang.com/check` to see if the auth servers are down. If they are, you can still let known player and address keypairs join because they played on your server before:
 
 ```java
 public class AuthDownDeterminer implements AuthDeterminer {
