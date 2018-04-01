@@ -70,7 +70,7 @@ private void registerDeterminer(Auther auther) {
 }
 ```
 
-Finally, you will need to add `"Auther"` as a plugin dependency to your `plugin.yml` file. Your plugin users will need to install Auther on their servers, but thankfully we provided compiled artifacts on the [Releases](https://github.com/hugmanrique/Auther/releases) page.
+Finally, you will need to add `"Auther"` as a plugin dependency to your `plugin.yml` file. Your plugin users will need to install Auther on their servers, but thankfully we provide compiled artifacts on the [Releases](https://github.com/hugmanrique/Auther/releases) page.
 
 > You will need to set `online-mode` to `true` on your BungeeCord's `config.yml` file to auth with Mojang by default. This plugin won't work in "cracked" proxies.
 
