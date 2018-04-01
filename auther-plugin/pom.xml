@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>auther-plugin</artifactId>
-    <name>Auther</name>
 
     <dependencies>
         <dependency>
