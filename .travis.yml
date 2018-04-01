@@ -1,4 +1,6 @@
 language: java
+
+install: true
 script: "cd auther-api && mvn test -B"
 
 notifications:
