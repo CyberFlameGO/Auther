@@ -1,7 +1,7 @@
 language: java
 
 install: true
-script: "cd auther-api && mvn test -B"
+script: "mvn -pl '!auther-plugin' test -B"
 
 notifications:
   email: false
